@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/jadwal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        tools:text="Jadwal" />
+
+    <TextView
+        android:id="@+id/namatim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/nama"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="81dp"
+        tools:text="Barcelona FC" />
+
+    <TextView
+        android:id="@+id/VS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/namatim"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        tools:text="VS" />
+
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="74dp"
+        tools:text="Barcelona FC2" />
+
+</RelativeLayout>
